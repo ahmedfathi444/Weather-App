@@ -1,0 +1,97 @@
+
+ *{
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color: #212529;
+ }
+ .nav-item{
+    margin: 25px;
+}
+
+.nav-item .nav-link ,.navbar-nav .nav-item .active ,.navbar-brand{
+    color: white;
+}
+
+.navbar-nav .nav-item .active{
+    color: #009ad8;
+    border: 1px solid #009ad8;
+    width: 100px;
+}
+
+.contain{
+    background-image: url(../images/image-downloader2.png);
+    height: 350px;
+}
+form{
+    position: relative;
+}
+
+.find{
+    background-color: #009ad8;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+}
+.card-text{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+    vertical-align: middle;
+}
+.card-text-tomrrow{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+footer{
+/* background-color: #262936; */
+background-color: #18191b;
+
+}
+
+.footer-btn{
+    background-color: #009ad8;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.myLinks i{
+    font-size: 20px;
+    color: #009ad8;
+    width: 30px;
+    height: 30px;
+    background-color: #212529;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.myLinks i:hover{
+
+    background-color: #009ad8;
+    color: white;
+}
+
+input{
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    
+}
+
+form input{
+    outline: none;
+}

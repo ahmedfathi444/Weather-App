@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather with me</title>
+
+
+
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/image-downloader1.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Weather
+      </a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active rounded-pill  d-flex justify-content-center align-items-center"
+              aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="contain">
+
+    <div class="container py-5">
+      <form action="">
+        <input id="searchInput" class="bg-dark border-0 text-white rounded-pill p-3" type="text"
+          placeholder="Enter your location....">
+        <button class="find border-0 rounded-pill py-2 px-4">Find</button>
+      </form>
+
+      <div class="row my-5" id="informationCard">
+        <!-- -----------------------------------current weather----------------- -->
+        <!-- <div class="card-day col-md-4 text-info">
+            <div class="card border-0">
+              <div class="card-header bg-dark text-info d-flex justify-content-between align-items-center ">
+                <p class="m-0">Wednesday</p> 
+                <p class="m-0">16Augast</p>
+              </div>
+              <div class="card-body bg-secondary">
+                <h5 class="card-title text-info">
+                  Cairo
+                </h5>
+                <span class="card-text ">32<sup>o</sup>C</span>
+                <img class="w-25" src="images/image-downloader3.png" alt="">
+                <p class="text-info">Partly cloudy</p>
+
+                <img src="images/image-downloader4.png" alt="">
+                <span class="align-middle text-info">20%</span>
+
+                <img class="ms-3" src="images/image-downloader5.png" alt="">
+                <span class="align-middle text-info me-3">18km/h</span>
+
+                <img src="images/image-downloader6.png" alt="">
+                <span class="align-middle text-info">East</span>
+
+              </div>
+            </div>
+        </div> -->
+
+        <!-- -----------------------------------towmorrow weather----------------- -->
+        <!-- <div class="card-day col-md-4 text-info">
+            <div class="card border-0 text-center">
+              <div class="card-header bg-dark text-info text-center ">
+               Friday
+              </div>
+              <div class="card-body bg-secondary">
+                <img class="w-25 d-block m-auto" src="images/image-downloader3.png" alt="">
+                <p class="card-text-tomrrow ">32<sup>o</sup>C</p>
+                <p class="card-text-tomrrow fs-5 ">32<sup>o</sup></p>
+                <p class="text-info pb-4">Patchy rain possible</p>
+              </div>
+            </div>
+        </div> -->
+      </div>
+
+      <footer class=" text-white p-5  ">
+
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-8">
+
+            <form action="">
+              <input id="footer" class=" border-0  rounded-pill p-3 " type="text" placeholder="Enter your location....">
+              <button class="footer-btn  border-0 rounded-pill py-2 px-4">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="  col-md-4 ">
+            <div class="myLinks d-flex justify-content-center align-items-center ms-4">
+              <i class="fa-brands fa-facebook "></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google-plus-g"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
